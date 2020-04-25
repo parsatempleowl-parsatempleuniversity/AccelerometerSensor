@@ -20,6 +20,14 @@ Accelerometer Sensor - Android Mobile Sensing Application - API 28 must be used 
 
 ## Insights and Findings
 
+**Plotting of Accelerometer Sensor Data Values**
+- At first, we were thinking about plotting of Accelerometer Sensor Data Values by exporting it to a csv file and then visualizing it from csv format to chart using Python. And then we ran into the MPAndroidChart Library which allowed us to plot the Accelerometer Sensor data values in real time as the sensor was reading them. So, we have decided to be using MPAndroidChart Library to plot the Accelerometer Sensor data in real time and not have to export them to a csv file and the visualizing it from csv format to chart using Python.
+
+**Using a Gyroscope Sensor For Rotation of The Device**
+- At first, we were thinking about using the Gyroscope Sensor for rotation of the device. But when we tried rotating the devuce using the Gyroscope Sensor, we ran into the problem about its x, y, and z values being all zeros regardless of if the device was rotated to the right or to the left. Then, we have decided to include the rotation of the device in its Accelerometer Sensor since we have used its x values to decide whether the background color should change to either green or red.
+
+**Keeping It Clean And User Friendly**
+
 ## Goal
 The goal of this Android Accelerometer Sensor Mobile Application is to allow users to control their incoming phone calls. This application allows them to either rotate their phones to the left to reject the call or rotate their phones to the right to answer the call. This application also allows the users to either swipe to the left to reject the call or swipe to the right to answer the call. The users can also press/tap the Reset button to change the background color to white again. This application also displays the x, y, and z data values for the users to see. This application also plots the x, y, and z data values in real time for the users to see. The application also allows the users to swipe upwards or downwards to change the background color to white again.
 
