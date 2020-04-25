@@ -11,7 +11,7 @@ Accelerometer Sensor - Android Mobile Sensing Application - API 28 must be used 
 - device rotation to the right to answer the call - the background color will be changed to green and the "You have answered the call." message will be displayed
 - swipe to the left to reject the call - the background color will be changed to red and the "You have rejected the call." mwssage will be displayed
 - swipe to the right to answer the call - the background will be changed to green and the "You have answered the call." message will be displayed
-- swuipe to the top - the background color will be changed to white and the "You have swiped upwards." message will be displayed
+- swipe to the top - the background color will be changed to white and the "You have swiped upwards." message will be displayed
 - swipe to the bottom - the background color will be changed to white and the "You have swiped downwards." message will be displayed
 - x value is displayed in its own text view
 - y value is displayed in its own text view
