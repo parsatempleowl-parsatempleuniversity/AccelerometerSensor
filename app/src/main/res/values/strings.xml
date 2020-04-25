@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AccelerometerSensor</string>
+    <string name="reset">Reset</string>
+    <string name="z_value">z value</string>
+    <string name="y_value">y value</string>
+    <string name="x_value">x value</string>
+</resources>
